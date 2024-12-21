@@ -1,0 +1,26 @@
+@import "./abstracts/mixins";
+@import "./base/colors";
+@import "./base/reset";
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background: url("./blur-clean.jpg") no-repeat center center/cover fixed;
+}
+
+main {
+  @include flex-container {
+  }
+  .C {
+    background-color: $boja1;
+    width: 20vw;
+    height: 20vw;
+  }
+  .S {
+    background-color: $boja2;
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    left: 50vw;
+  }
+}

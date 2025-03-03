@@ -40,7 +40,7 @@ for (let i=0; i<niz.length; i++) {
 console.log(niz[i]);
 }
 
-//   for...of petlja (bolja,laksa,kompaktnija....)za ispisivanje stringova itd.
+//   for...of petlja         .....(bolja,laksa,kompaktnija....)za ispisivanje stringova itd.
 
 for (const element of niz) {
     console.log(element);

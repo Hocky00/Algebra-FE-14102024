@@ -1,3 +1,5 @@
+
+
 var words = [
   "quickest",
   "brown",
@@ -10,7 +12,9 @@ var words = [
   "otorinolaringologija",
 ];
 
-//1. Napišite JavaScript funkciju koja prihvaća zadani niz kao parametar i pronalazi najdužu riječ unutar niza.
+//1. Napišite JavaScript funkciju koja prihvaća zadani niz 
+// kao parametar 
+// i pronalazi najdužu riječ unutar niza.
 
 function findLongestWord(niz) {
   var word = "";

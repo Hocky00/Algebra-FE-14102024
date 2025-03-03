@@ -6,7 +6,7 @@ var x = "Lorem ipsum";
 var y = 2345;
 var z = "2345";
 var q = false;
-var w;
+var w = 6;
 
 
 
